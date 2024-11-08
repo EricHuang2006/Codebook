@@ -15,6 +15,7 @@ struct node{
 node sgt[maxn];
 
 int root[maxn], cnt = 0;
+
 struct segtree{
 	node *rt;
 	int n, siz;
