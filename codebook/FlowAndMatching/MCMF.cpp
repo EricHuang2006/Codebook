@@ -1,5 +1,5 @@
 struct MCMF{
-    using T = int;
+    using T = ll;
     struct edge{
         int to;
         T cap, cost;
