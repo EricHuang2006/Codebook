@@ -38,7 +38,7 @@ struct EERTREE{
 		last = ch[now][c - 'a'];
 		cnt[last]++;
 	}
-	int process(string s){
+	int process(string s){ // minimum palindrome partitioning
 		for(int i = 0; i < s.size(); i++){
 			insert(s[i]);
 			dp[i] = INF;

@@ -2,7 +2,7 @@ const int N = 998244353, g = 3;
 using cd = complex<double>;
 const double PI = acos(-1);
 
-void fft(vector<ll> &a, bool invert = 0){ // interative version
+void NTT(vector<ll> &a, bool invert = 0){ // interative version
 	int n = a.size();
 	int lg_n = __lg(n);
 	for(int i = 1, j = 0; i < n; i++){ 

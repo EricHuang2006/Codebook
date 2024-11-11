@@ -50,36 +50,4 @@ struct Dinic{
 		}
 		return 0;
 	}
-	ll flow(){
-		ll ret = 0;
-		while(true){
-			bfs();
-			if(level[t] == -1) break;
-			fill(iter.begin(), iter.end(), 0);
-			ll tmp;
-			while((tmp = dfs(s, INF)) > 0){
-				ret += tmp;
-			}
-		}
-		return ret;
-	}
-	vector<pll> cut(){
-		vector<pll> ret;
-		fill(level.begin(), level.end(), -1);
-		level[s] = 0;
-		queue<int> q;
-		q.push(s);
-		while(!q.empty()){
-			int cur = q.front(); q.pop();
-			for(auto id : awdj[cur]){
-				auto [to, cap] = e[id];
-				if(cap == 0 && level[to] == -1) ret.pb({e[id ^ 1].to, to});
-				else if(level[to] == -1){
-					level[to] = level[cur] + 1;
-					q.push(to);
-				}
-			}
-		}
-		return ret;
-	}
 } flow;

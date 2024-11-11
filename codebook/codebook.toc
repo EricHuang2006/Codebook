@@ -9,26 +9,37 @@
 \contentsline {subsection}{\numberline {2.7}pbds}{2}{}%
 \contentsline {section}{\numberline {3}Graph}{3}{}%
 \contentsline {subsection}{\numberline {3.1}Dominator Tree}{3}{}%
-\contentsline {subsection}{\numberline {3.2}MaximumClique}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Maximum Clique}{3}{}%
 \contentsline {section}{\numberline {4}Flow / Matching}{3}{}%
 \contentsline {subsection}{\numberline {4.1}Dinic}{3}{}%
 \contentsline {subsection}{\numberline {4.2}Min Cost Max Flow}{4}{}%
-\contentsline {subsection}{\numberline {4.3}Kuhn Munkres}{4}{}%
-\contentsline {subsection}{\numberline {4.4}Hopcroft Karp}{5}{}%
-\contentsline {section}{\numberline {5}String}{5}{}%
-\contentsline {subsection}{\numberline {5.1}Z-Value}{5}{}%
-\contentsline {subsection}{\numberline {5.2}Manacher}{5}{}%
-\contentsline {subsection}{\numberline {5.3}Suffix Array}{5}{}%
-\contentsline {subsection}{\numberline {5.4}Suffix Automaton}{6}{}%
-\contentsline {subsection}{\numberline {5.5}Palindrome Tree}{6}{}%
-\contentsline {section}{\numberline {6}Math}{7}{}%
-\contentsline {subsection}{\numberline {6.1}Miller Rabin}{7}{}%
-\contentsline {subsection}{\numberline {6.2}Pollard Rho}{7}{}%
-\contentsline {subsection}{\numberline {6.3}Ext GCD}{7}{}%
-\contentsline {subsection}{\numberline {6.4}Chinese Remainder Theorem}{7}{}%
-\contentsline {subsection}{\numberline {6.5}Powerful Number Sieve}{7}{}%
-\contentsline {subsection}{\numberline {6.6}Fast Walsh Transform}{8}{}%
-\contentsline {subsection}{\numberline {6.7}Floor Sum}{8}{}%
-\contentsline {section}{\numberline {7}Geometry}{8}{}%
-\contentsline {subsection}{\numberline {7.1}Basic}{8}{}%
-\contentsline {subsection}{\numberline {7.2}Minkowski Sum}{8}{}%
+\contentsline {subsection}{\numberline {4.3}Gomory Hu}{4}{}%
+\contentsline {subsection}{\numberline {4.4}SW Min Cut}{4}{}%
+\contentsline {subsection}{\numberline {4.5}Hopcroft Karp}{4}{}%
+\contentsline {subsection}{\numberline {4.6}Kuhn Munkres}{5}{}%
+\contentsline {subsection}{\numberline {4.7}General Graph Matching}{5}{}%
+\contentsline {subsection}{\numberline {4.8}Weighted General Graph Matching}{6}{}%
+\contentsline {section}{\numberline {5}String}{7}{}%
+\contentsline {subsection}{\numberline {5.1}Z-Value}{7}{}%
+\contentsline {subsection}{\numberline {5.2}KMP}{7}{}%
+\contentsline {subsection}{\numberline {5.3}Manacher}{7}{}%
+\contentsline {subsection}{\numberline {5.4}Suffix Array}{7}{}%
+\contentsline {subsection}{\numberline {5.5}Suffix Automaton}{8}{}%
+\contentsline {subsection}{\numberline {5.6}Palindrome Tree}{8}{}%
+\contentsline {subsection}{\numberline {5.7}AC Automaton}{9}{}%
+\contentsline {subsection}{\numberline {5.8}Lyndon Factorization}{9}{}%
+\contentsline {section}{\numberline {6}Math}{9}{}%
+\contentsline {subsection}{\numberline {6.1}Miller Rabin}{9}{}%
+\contentsline {subsection}{\numberline {6.2}Pollard Rho}{9}{}%
+\contentsline {subsection}{\numberline {6.3}EXT GCD}{10}{}%
+\contentsline {subsection}{\numberline {6.4}Chinese Remainder Theorem}{10}{}%
+\contentsline {subsection}{\numberline {6.5}Powerful Number Sieve}{10}{}%
+\contentsline {subsection}{\numberline {6.6}Fast Walsh Transform}{10}{}%
+\contentsline {subsection}{\numberline {6.7}Floor Sum}{10}{}%
+\contentsline {subsection}{\numberline {6.8}NTT}{10}{}%
+\contentsline {section}{\numberline {7}Geometry}{11}{}%
+\contentsline {subsection}{\numberline {7.1}Basic}{11}{}%
+\contentsline {subsection}{\numberline {7.2}Minkowski Sum}{11}{}%
+\contentsline {section}{\numberline {8}Misc}{11}{}%
+\contentsline {subsection}{\numberline {8.1}SMAWK}{11}{}%
+\contentsline {subsection}{\numberline {8.2}Simulate Annealing}{12}{}%
