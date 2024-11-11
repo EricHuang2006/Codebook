@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.10)  10 NOV 2024 18:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.10)  11 NOV 2024 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -713,20 +713,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./codebook.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
- [][] []\TU/Ubuntu(0)/b/n/7 Fast Walsh-Hadamard 
- []
-
-)
+))
 \tf@toc=\write3
 \openout3 = `codebook.toc'.
 
@@ -748,7 +743,7 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 (./DataStructure/LCT.cpp) (./DataStructure/LiChaoST.cpp)
-(./DataStructure/Dominator Tree.cpp
+(./DataStructure/LeftistHeap.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -756,56 +751,58 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-]) (./DataStructure/LeftistHeap.cpp) (./FlowAndMatching/Dinic.cpp)
-(./FlowAndMatching/MCMF.cpp
+]) (./Graph/Dominator Tree.cpp) (./Graph/MaximumClique.cpp)
+(./FlowAndMatching/Dinic.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[2]) (./FlowAndMatching/Kuhn Munkres.cpp) (./FlowAndMatching/Hopcroft Karp.cpp
+[2]) (./FlowAndMatching/MCMF.cpp) (./FlowAndMatching/Kuhn Munkres.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[3]) (./String/ZValue.cpp) (./String/Manacher.cpp) (./String/SuffixArray.cpp)
-(./String/SAM.cpp
+[3]) (./FlowAndMatching/Hopcroft Karp.cpp) (./String/ZValue.cpp)
+(./String/Manacher.cpp) (./String/SuffixArray.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./String/PalindromeTree.cpp) (./Math/MillerRabin.cpp
+[4]) (./String/SAM.cpp) (./String/PalindromeTree.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[5]) (./Math/PollardRho.cpp) (./Math/Extgcd.cpp) (./Math/CRT.cpp)
-(./Math/Powerful Number Sieve.cpp
+[5]) (./Math/MillerRabin.cpp) (./Math/PollardRho.cpp) (./Math/Extgcd.cpp)
+(./Math/CRT.cpp) (./Math/Powerful Number Sieve.cpp
 
 LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
 (Font)              using `TU/FandolFang-Regular(0)/m/n' instead on input line 
 36.
 
-) (./Math/FWT.cpp) (./Math/FloorSum.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[6]) (./Geometry/MinkowskiSum.cpp))
+[6]) (./Math/FWT.cpp) (./Math/FloorSum.cpp) (./Geometry/Basic.cpp)
+(./Geometry/MinkowskiSum.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[7
+[7]))
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[8
 
 ] (./codebook.aux)
 
@@ -813,12 +810,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 11161 strings out of 476191
- 244261 string characters out of 5812071
- 2031060 words of memory out of 5000000
- 31653 multiletter control sequences out of 15000+600000
+ 11236 strings out of 476191
+ 245076 string characters out of 5812071
+ 2195060 words of memory out of 5000000
+ 31721 multiletter control sequences out of 15000+600000
  471476 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,12n,97p,268b,1656s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on codebook.pdf (7 pages).
+Output written on codebook.pdf (8 pages).

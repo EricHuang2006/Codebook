@@ -1,7 +1,6 @@
-int l, r, m;
 int mx[maxn], my[maxn], dx[maxn], dy[maxn], vis[maxn];
 vector<int> adj[maxn];
-int n, lim;
+int l, r, m;
 
 int dfs(int pos){
     for(auto x : adj[pos]){
@@ -41,14 +40,12 @@ int bfs(){
 
 void Hopcroft_Karp(){
     int res = 0;
+    for(int i = 0; i < l; i++) mx[i] = -1;
+    for(int i = 0; i < r; i++) my[i] = -1;
     while(bfs()){
         fill(vis, vis + l + r, 0);
         for(int i = 0; i < l; i++){
             if(mx[i] == -1 && dfs(i)) res++;
         }
-    }
-    cout<<res<<"\n";
-    for(int i = 0; i < l; i++){
-        if(mx[i] != -1) cout<<i<<" "<<mx[i]<<"\n";
     }
 }
