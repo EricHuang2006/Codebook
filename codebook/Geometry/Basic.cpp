@@ -13,6 +13,8 @@ pt operator / (pt a, double p)
 { return pt(a.x / p, a.y / p); }
 bool operator < (const pt &a, const pt &b) 
 { return a.x < b.x || (a.x == b.x && a.y < b.y); }
+bool operator == (const pt &a, const pt &b) 
+{ return a.x == b.x && a.y == b.y; }
 double dot(pt a, pt b)
 { return a.x * b.x + a.y * b.y; }
 double cross(pt a, pt b)
@@ -24,14 +26,10 @@ double angle(pt a, pt b)
 double area2(pt a, pt b, pt c)
 { return cross(b - a, c - a); }
 
-const double eps = 1e-10;
+const double eps = 1e-9;
 int dcmp(double x){
 	if(fabs(x) < eps) return 0; 
 	return x < 0? -1 : 1;
-}
-
-bool operator == (const pt &a, const pt &b) {
-	return dcmp(a.x - b.x) == 0 && dcmp(a.x - b.y) == 0;
 }
 
 inline int ori(pt a, pt b, pt c){
