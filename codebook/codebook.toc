@@ -6,40 +6,61 @@
 \contentsline {subsection}{\numberline {2.4}LiChaoST}{2}{}%
 \contentsline {subsection}{\numberline {2.5}Leftist Heap}{2}{}%
 \contentsline {subsection}{\numberline {2.6}Treap}{2}{}%
-\contentsline {subsection}{\numberline {2.7}pbds}{2}{}%
+\contentsline {subsection}{\numberline {2.7}pbds}{3}{}%
 \contentsline {section}{\numberline {3}Graph}{3}{}%
-\contentsline {subsection}{\numberline {3.1}Dominator Tree}{3}{}%
-\contentsline {subsection}{\numberline {3.2}Maximum Clique}{3}{}%
-\contentsline {section}{\numberline {4}Flow / Matching}{3}{}%
-\contentsline {subsection}{\numberline {4.1}Dinic}{3}{}%
+\contentsline {subsection}{\numberline {3.1}SCC}{3}{}%
+\contentsline {subsection}{\numberline {3.2}BCC Vertex}{3}{}%
+\contentsline {subsection}{\numberline {3.3}Negative Cycle}{3}{}%
+\contentsline {subsection}{\numberline {3.4}Dominator Tree}{3}{}%
+\contentsline {subsection}{\numberline {3.5}Maximum Clique}{4}{}%
+\contentsline {section}{\numberline {4}Flow / Matching}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Dinic}{4}{}%
 \contentsline {subsection}{\numberline {4.2}Min Cost Max Flow}{4}{}%
-\contentsline {subsection}{\numberline {4.3}Gomory Hu}{4}{}%
-\contentsline {subsection}{\numberline {4.4}SW Min Cut}{4}{}%
-\contentsline {subsection}{\numberline {4.5}Hopcroft Karp}{4}{}%
+\contentsline {subsection}{\numberline {4.3}Gomory Hu}{5}{}%
+\contentsline {subsection}{\numberline {4.4}SW Min Cut}{5}{}%
+\contentsline {subsection}{\numberline {4.5}Hopcroft Karp}{5}{}%
 \contentsline {subsection}{\numberline {4.6}Kuhn Munkres}{5}{}%
-\contentsline {subsection}{\numberline {4.7}General Graph Matching}{5}{}%
+\contentsline {subsection}{\numberline {4.7}General Graph Matching}{6}{}%
 \contentsline {subsection}{\numberline {4.8}Weighted General Graph Matching}{6}{}%
-\contentsline {section}{\numberline {5}String}{7}{}%
-\contentsline {subsection}{\numberline {5.1}Z-Value}{7}{}%
-\contentsline {subsection}{\numberline {5.2}KMP}{7}{}%
-\contentsline {subsection}{\numberline {5.3}Manacher}{7}{}%
-\contentsline {subsection}{\numberline {5.4}Suffix Array}{7}{}%
-\contentsline {subsection}{\numberline {5.5}Suffix Automaton}{8}{}%
-\contentsline {subsection}{\numberline {5.6}Palindrome Tree}{8}{}%
-\contentsline {subsection}{\numberline {5.7}AC Automaton}{9}{}%
-\contentsline {subsection}{\numberline {5.8}Lyndon Factorization}{9}{}%
-\contentsline {section}{\numberline {6}Math}{9}{}%
-\contentsline {subsection}{\numberline {6.1}Miller Rabin}{9}{}%
-\contentsline {subsection}{\numberline {6.2}Pollard Rho}{9}{}%
-\contentsline {subsection}{\numberline {6.3}EXT GCD}{10}{}%
-\contentsline {subsection}{\numberline {6.4}Chinese Remainder Theorem}{10}{}%
-\contentsline {subsection}{\numberline {6.5}Powerful Number Sieve}{10}{}%
-\contentsline {subsection}{\numberline {6.6}Fast Walsh Transform}{10}{}%
-\contentsline {subsection}{\numberline {6.7}Floor Sum}{10}{}%
-\contentsline {subsection}{\numberline {6.8}NTT}{10}{}%
-\contentsline {section}{\numberline {7}Geometry}{11}{}%
-\contentsline {subsection}{\numberline {7.1}Basic}{11}{}%
-\contentsline {subsection}{\numberline {7.2}Minkowski Sum}{11}{}%
-\contentsline {section}{\numberline {8}Misc}{11}{}%
-\contentsline {subsection}{\numberline {8.1}SMAWK}{11}{}%
-\contentsline {subsection}{\numberline {8.2}Simulate Annealing}{12}{}%
+\contentsline {subsection}{\numberline {4.9}Flow Models}{8}{}%
+\contentsline {section}{\numberline {5}String}{8}{}%
+\contentsline {subsection}{\numberline {5.1}Z-Value}{8}{}%
+\contentsline {subsection}{\numberline {5.2}KMP}{8}{}%
+\contentsline {subsection}{\numberline {5.3}Manacher}{8}{}%
+\contentsline {subsection}{\numberline {5.4}Suffix Array}{8}{}%
+\contentsline {subsection}{\numberline {5.5}Suffix Automaton}{9}{}%
+\contentsline {subsection}{\numberline {5.6}Palindrome Tree}{9}{}%
+\contentsline {subsection}{\numberline {5.7}AC Automaton}{10}{}%
+\contentsline {subsection}{\numberline {5.8}Lyndon Factorization}{10}{}%
+\contentsline {section}{\numberline {6}Math}{10}{}%
+\contentsline {subsection}{\numberline {6.1}Miller Rabin}{10}{}%
+\contentsline {subsection}{\numberline {6.2}Pollard Rho}{11}{}%
+\contentsline {subsection}{\numberline {6.3}EXT GCD}{11}{}%
+\contentsline {subsection}{\numberline {6.4}Chinese Remainder Theorem}{11}{}%
+\contentsline {subsection}{\numberline {6.5}Powerful Number Sieve}{11}{}%
+\contentsline {subsection}{\numberline {6.6}Floor Sum}{11}{}%
+\contentsline {subsection}{\numberline {6.7}Euclidean}{11}{}%
+\contentsline {subsection}{\numberline {6.8}Quadratic Residue}{12}{}%
+\contentsline {section}{\numberline {7}Polynomial}{12}{}%
+\contentsline {subsection}{\numberline {7.1}NTT}{12}{}%
+\contentsline {subsection}{\numberline {7.2}FFT}{12}{}%
+\contentsline {subsection}{\numberline {7.3}Primes}{12}{}%
+\contentsline {subsection}{\numberline {7.4}Fast Walsh Transform}{12}{}%
+\contentsline {subsection}{\numberline {7.5}Fast Liear Recursion}{12}{}%
+\contentsline {subsection}{\numberline {7.6}Operations}{13}{}%
+\contentsline {section}{\numberline {8}Geometry}{13}{}%
+\contentsline {subsection}{\numberline {8.1}Basic}{13}{}%
+\contentsline {subsection}{\numberline {8.2}Convex Hull}{13}{}%
+\contentsline {subsection}{\numberline {8.3}Minkowski Sum}{13}{}%
+\contentsline {subsection}{\numberline {8.4}Intersection of Circle and Line}{13}{}%
+\contentsline {subsection}{\numberline {8.5}Intersection of Circles}{13}{}%
+\contentsline {subsection}{\numberline {8.6}Point in Convex}{13}{}%
+\contentsline {subsection}{\numberline {8.7}Minimum Enclosing Circle}{14}{}%
+\contentsline {subsection}{\numberline {8.8}Rotating Caliper}{14}{}%
+\contentsline {subsection}{\numberline {8.9}Rotating Sweep Line}{14}{}%
+\contentsline {subsection}{\numberline {8.10}Delaunay Triangulation}{14}{}%
+\contentsline {subsection}{\numberline {8.11}3D Point}{15}{}%
+\contentsline {subsection}{\numberline {8.12}3D Convex Hull}{15}{}%
+\contentsline {section}{\numberline {9}Misc}{16}{}%
+\contentsline {subsection}{\numberline {9.1}SMAWK}{16}{}%
+\contentsline {subsection}{\numberline {9.2}Simulate Annealing}{16}{}%

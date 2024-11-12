@@ -1,6 +1,4 @@
 const int N = 998244353, g = 3;
-using cd = complex<double>;
-const double PI = acos(-1);
 
 void NTT(vector<ll> &a, bool invert = 0){ // interative version
 	int n = a.size();
