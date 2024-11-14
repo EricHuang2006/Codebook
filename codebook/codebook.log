@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.10)  13 NOV 2024 21:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.10)  14 NOV 2024 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -727,12 +727,12 @@ Underfull \hbox (badness 5878) in paragraph at lines 5--5
  []
 
 
-Underfull \hbox (badness 5475) in paragraph at lines 93--93
+Underfull \hbox (badness 5475) in paragraph at lines 92--92
  [][] []\TU/Ubuntu(0)/b/n/7 Totally Monotone 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
  [][] []\TU/Ubuntu(0)/b/n/7 Monge Condition 
  []
 
@@ -1008,7 +1008,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  12684 strings out of 476191
- 267732 string characters out of 5812071
+ 267730 string characters out of 5812071
  2272060 words of memory out of 5000000
  32950 multiletter control sequences out of 15000+600000
  474616 words of font info for 99 fonts, out of 8000000 for 9000
