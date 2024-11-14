@@ -10,9 +10,9 @@ pair<VI, VVI> gauss(VVI A, VI b) { // solve Ax=b
         p = j;
     if (p == -1 || A[p][i] == 0) continue;
     swap(A[p], A[rk]); swap(b[p], b[rk]);
-    const int inv = modinv(A[rk][i]);
-    for (int &x : A[rk]) x = mul(x, inv);
-    b[rk] = mul(b[rk], inv);
+    const int inver = inv(A[rk][i]);
+    for (int &x : A[rk]) x = mul(x, inver);
+    b[rk] = mul(b[rk], inver);
     for (int j = 0; j < N; j++) if (j != rk) {
       int z = A[j][i];
       for (int k = 0; k < M; k++)

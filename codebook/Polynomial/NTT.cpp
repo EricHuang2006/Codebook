@@ -1,6 +1,6 @@
 const int N = 998244353, g = 3;
 
-void NTT(vector<ll> &a, bool invert = 0){ // interative version
+void NTT(vector<ll> &a, bool invert = 0){
 	int n = a.size();
 	int lg_n = __lg(n);
 	for(int i = 1, j = 0; i < n; i++){ 
