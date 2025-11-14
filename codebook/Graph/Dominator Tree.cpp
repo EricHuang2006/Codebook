@@ -2,21 +2,15 @@ int in[maxn], id[maxn], par[maxn], dfn = 0;
 int mn[maxn], idom[maxn], sdom[maxn], ans[maxn];
 int fa[maxn]; // dsu
 int n, m;
-
-struct edge{
-	int to, id;
-	edge(){}
-	edge(int _to, int _id) : to(_to), id(_id){}
-};
-vector<edge> adj[3][maxn];
+vector<int> adj[3][maxn];
 
 void dfs(int pos){
 	in[pos] = ++dfn;
 	id[dfn] = pos;
-	for(auto [x, id] : adj[0][pos]){
+	for(auto x : adj[0][pos]){
 		if(in[x]) continue;
-		dfs(x);
 		par[x] = pos;
+		dfs(x);
 	}
 }
 
@@ -32,10 +26,14 @@ int find(int x){
 
 void tar(int st){
 	dfs(st);
-	for(int i = 0; i < n; i++) mn[i] = sdom[i] = fa[i] = i;
+    idom[st] = st;
+	for(int i = 0; i < n; i++){
+        if(!in[i]) idom[i] = -1;
+        else mn[i] = sdom[i] = fa[i] = i;
+    }
 	for(int i = dfn; i >= 2; i--){
 		int pos = id[i], res = INF; // res : in(x) of sdom
-		for(auto [x, id] : adj[1][pos]){
+		for(auto x : adj[1][pos]){
 			if(!in[x]) continue;
 			find(x);
 			if(in[pos] > in[x]) res = min(res, in[x]);
@@ -43,9 +41,9 @@ void tar(int st){
 		}
 		sdom[pos] = id[res];
 		fa[pos] = par[pos];
-		adj[2][sdom[pos]].eb(pos, 0);
+		adj[2][sdom[pos]].pb(pos);
 		pos = par[pos]; 
-		for(auto [x, id] : adj[2][pos]){
+		for(auto x : adj[2][pos]){
 			find(x);
 			if(sdom[mn[x]] == pos){
 				idom[x] = pos;

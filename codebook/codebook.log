@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.10)  14 NOV 2024 10:58
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.11.10)  14 NOV 2025 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -727,12 +727,12 @@ Underfull \hbox (badness 5878) in paragraph at lines 5--5
  []
 
 
-Underfull \hbox (badness 5475) in paragraph at lines 92--92
+Underfull \hbox (badness 5475) in paragraph at lines 95--95
  [][] []\TU/Ubuntu(0)/b/n/7 Totally Monotone 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
  [][] []\TU/Ubuntu(0)/b/n/7 Monge Condition 
  []
 
@@ -942,7 +942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
 ) (./Polynomial/NTT.cpp) (./Polynomial/FFT.cpp) (./Polynomial/NTTprime.tex)
 (./Polynomial/FWT.cpp) (./Polynomial/FastLinearRecursion.cpp)
-(./Polynomial/Operation.cpp
+(./Polynomial/Operation_less.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -951,26 +951,25 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+)
+(./Geometry/Basic.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[20]) (./Geometry/Basic.cpp) (./Geometry/ConvexHull.cpp)
-(./Geometry/MinkowskiSum.cpp) (./Geometry/Intersection_of_Circle_and_Line.cpp)
-(./Geometry/Intersection_of_Circles.cpp) (./Geometry/PointInConvex.cpp
+[20]) (./Geometry/ConvexHull.cpp) (./Geometry/MinkowskiSum.cpp)
+(./Geometry/Intersection_of_Circle_and_Line.cpp)
+(./Geometry/Intersection_of_Circles.cpp) (./Geometry/PointInConvex.cpp)
+(./Geometry/MinimumEnclosingCircle.cpp) (./Geometry/RotatingCaliper.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[21]) (./Geometry/MinimumEnclosingCircle.cpp) (./Geometry/RotatingCaliper.cpp)
-(./Geometry/RotatingSweepLine.cpp) (./Geometry/3DPoint.cpp)
-(./Geometry/3DConvexHull.cpp
+[21]) (./Geometry/RotatingSweepLine.cpp)
+(./Geometry/Tangent_line_of_two_circles.cpp) (./Geometry/TangentPointToHull.cpp
+) (./Geometry/3DPoint.cpp) (./Geometry/3DConvexHull.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -980,8 +979,8 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./Misc/BinarySearchOnFraction.cpp) (./Misc/Random.cpp) (./Misc/BitHack.cpp)
-(./Misc/DynamicMST.cpp
+(./Misc/Cyclic_Tenary_Search.cpp) (./Misc/BinarySearchOnFraction.cpp)
+(./Misc/Random.cpp) (./Misc/BitHack.cpp) (./Misc/DynamicMST.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -1007,10 +1006,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12684 strings out of 476191
- 267730 string characters out of 5812071
- 2272060 words of memory out of 5000000
- 32950 multiletter control sequences out of 15000+600000
+ 12716 strings out of 476191
+ 268398 string characters out of 5812071
+ 2240060 words of memory out of 5000000
+ 32973 multiletter control sequences out of 15000+600000
  474616 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,15n,97p,580b,1656s stack positions out of 5000i,500n,10000p,200000b,80000s

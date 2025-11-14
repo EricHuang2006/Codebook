@@ -1,5 +1,5 @@
 template <typename U, typename V> struct min25 {
-  lld n; int sq;
+make  lld n; int sq;
   vector<U> Ss, Sl, Spre; vector<V> Rs, Rl;
   Sieve sv; vector<lld> quo;
   U &S(lld d) { return d < sq ? Ss[d] : Sl[n / d]; }

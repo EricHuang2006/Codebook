@@ -68,35 +68,38 @@
 \contentsline {subsection}{\numberline {7.2}FFT}{19}{}%
 \contentsline {subsection}{\numberline {7.3}Primes}{19}{}%
 \contentsline {subsection}{\numberline {7.4}Fast Walsh Transform}{19}{}%
-\contentsline {subsection}{\numberline {7.5}Fast Liear Recursion}{19}{}%
+\contentsline {subsection}{\numberline {7.5}Fast Linear Recursion}{19}{}%
 \contentsline {subsection}{\numberline {7.6}Polynomial Operations}{19}{}%
-\contentsline {section}{\numberline {8}Geometry}{21}{}%
-\contentsline {subsection}{\numberline {8.1}Basic}{21}{}%
+\contentsline {section}{\numberline {8}Geometry}{20}{}%
+\contentsline {subsection}{\numberline {8.1}Basic}{20}{}%
 \contentsline {subsection}{\numberline {8.2}Convex Hull}{21}{}%
 \contentsline {subsection}{\numberline {8.3}Minkowski Sum}{21}{}%
 \contentsline {subsection}{\numberline {8.4}Intersection of Circle and Line}{21}{}%
 \contentsline {subsection}{\numberline {8.5}Intersection of Circles}{21}{}%
 \contentsline {subsection}{\numberline {8.6}Point in Convex}{21}{}%
-\contentsline {subsection}{\numberline {8.7}Minimum Enclosing Circle}{22}{}%
-\contentsline {subsection}{\numberline {8.8}Rotating Caliper}{22}{}%
+\contentsline {subsection}{\numberline {8.7}Minimum Enclosing Circle}{21}{}%
+\contentsline {subsection}{\numberline {8.8}Rotating Caliper}{21}{}%
 \contentsline {subsection}{\numberline {8.9}Rotating Sweep Line}{22}{}%
-\contentsline {subsection}{\numberline {8.10}3D Point}{22}{}%
-\contentsline {subsection}{\numberline {8.11}3D Convex Hull}{22}{}%
+\contentsline {subsection}{\numberline {8.10}Tangent Line of Two Circles}{22}{}%
+\contentsline {subsection}{\numberline {8.11}Tangent Point to Hull}{22}{}%
+\contentsline {subsection}{\numberline {8.12}3D Point}{22}{}%
+\contentsline {subsection}{\numberline {8.13}3D Convex Hull}{22}{}%
 \contentsline {section}{\numberline {9}Misc}{23}{}%
-\contentsline {subsection}{\numberline {9.1}Binary Search on Fraction}{23}{}%
-\contentsline {subsection}{\numberline {9.2}Random}{23}{}%
-\contentsline {subsection}{\numberline {9.3}Bit Hack}{23}{}%
-\contentsline {subsection}{\numberline {9.4}Dynamic MST}{23}{}%
-\contentsline {subsection}{\numberline {9.5}Manhattan MST}{24}{}%
-\contentsline {subsection}{\numberline {9.6}DP Optimization Conditions}{24}{}%
-\contentsline {subsubsection}{\numberline {9.6.1}Totally Monotone (Concave/Convex)}{24}{}%
-\contentsline {subsubsection}{\numberline {9.6.2}Monge Condition (Concave/Convex)}{24}{}%
-\contentsline {subsubsection}{\numberline {9.6.3}Optimal Split Point}{24}{}%
-\contentsline {subsection}{\numberline {9.7}Mo's Algo With Modification}{24}{}%
-\contentsline {subsection}{\numberline {9.8}Mo's Algo On Tree}{24}{}%
-\contentsline {subsection}{\numberline {9.9}Mo's Algorithm}{25}{}%
-\contentsline {subsection}{\numberline {9.10}Hilbert Curve}{25}{}%
-\contentsline {subsection}{\numberline {9.11}SMAWK}{25}{}%
-\contentsline {subsection}{\numberline {9.12}Simulate Annealing}{25}{}%
-\contentsline {subsection}{\numberline {9.13}Python}{25}{}%
-\contentsline {subsection}{\numberline {9.14}Matroid}{25}{}%
+\contentsline {subsection}{\numberline {9.1}Cyclic Tenary Search}{23}{}%
+\contentsline {subsection}{\numberline {9.2}Binary Search on Fraction}{23}{}%
+\contentsline {subsection}{\numberline {9.3}Random}{23}{}%
+\contentsline {subsection}{\numberline {9.4}Bit Hack}{23}{}%
+\contentsline {subsection}{\numberline {9.5}Dynamic MST}{23}{}%
+\contentsline {subsection}{\numberline {9.6}Manhattan MST}{24}{}%
+\contentsline {subsection}{\numberline {9.7}DP Optimization Conditions}{24}{}%
+\contentsline {subsubsection}{\numberline {9.7.1}Totally Monotone (Concave/Convex)}{24}{}%
+\contentsline {subsubsection}{\numberline {9.7.2}Monge Condition (Concave/Convex)}{24}{}%
+\contentsline {subsubsection}{\numberline {9.7.3}Optimal Split Point}{24}{}%
+\contentsline {subsection}{\numberline {9.8}Mo's Algo With Modification}{24}{}%
+\contentsline {subsection}{\numberline {9.9}Mo's Algo On Tree}{24}{}%
+\contentsline {subsection}{\numberline {9.10}Mo's Algorithm}{25}{}%
+\contentsline {subsection}{\numberline {9.11}Hilbert Curve}{25}{}%
+\contentsline {subsection}{\numberline {9.12}SMAWK}{25}{}%
+\contentsline {subsection}{\numberline {9.13}Simulate Annealing}{25}{}%
+\contentsline {subsection}{\numberline {9.14}Python}{25}{}%
+\contentsline {subsection}{\numberline {9.15}Matroid}{25}{}%
